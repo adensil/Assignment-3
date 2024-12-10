@@ -7,25 +7,102 @@
 <!--Aden Silaphet-21097720- Assignment 3 - Dec 10, 2024-->
   </title>
   <style>
-  #header
-    #header{
-      height: 160px;
-      background-image: url("Banner.png");
-    }
-    ul{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    li{
-      float: left;
-    }
-    li a{
-      display: block;
-      color: blue;
-      text-align: center;
-      padding: 15;
-    }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-banner {
+  background-color: #6cc24a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-family: 'Cursive', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-icons a {
+  margin-left: 15px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6cc24a;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+  text-align: center;
+  padding: 20px;
+}
+
+.new-arrivals h2 {
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 150px;
+  height: auto;
+}
+
   </style>
 </head>
 <body>
@@ -35,8 +112,7 @@
   </div>
 
   <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">MP</div>
+  <nav class="menubar">
     <ul class="nav-links">
       <li><a href="#">Paddles</a></li>
       <li><a href="#">Apparel</a></li>
