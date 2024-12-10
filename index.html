@@ -6,8 +6,12 @@
 <title>
 <!--Aden Silaphet-21097720- Assignment 3 - Dec 10, 2024-->
   </title>
-  <img src="Banner.png" alt="Banner" style="width: 800px;">
   <style>
+  #header
+    #header{
+      height: 160px;
+      background-image: url("Banner.png");
+    }
     ul{
       list-style-type: none;
       margin: 0;
@@ -23,17 +27,56 @@
       padding: 15;
     }
   </style>
-  </head>
-  <body>
-     <ul>
-          <li><a >Paddles</a></li>
-          <li><a >Apparel</a></li>
-          <li><a >Footwear</a></li>
-          <li><a >Gear & Bags</a></li>
-         <li><a >Balls & Nets</a></li>
-         <li><a >Contact Us</a></li>
-          </ul>
-  </body>
-  
-  
+</head>
+<body>
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <p>FREE SHIPPING ON ORDERS OVER $50</p>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">MP</div>
+    <ul class="nav-links">
+      <li><a href="#">Paddles</a></li>
+      <li><a href="#">Apparel</a></li>
+      <li><a href="#">Footwear</a></li>
+      <li><a href="#">Gear & Bags</a></li>
+      <li><a href="#">Balls & Nets</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div id="nav-icons">
+      <a href="#"><i class="icon-cart"></i></a>
+      <a href="#"><i class="icon-search"></i></a>
+      <a href="#"><i class="icon-profile"></i></a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div id="hero">
+    <img src="hero-image.jpg" alt="Selkirk paddles">
+    <div id="hero-text">
+      <h1>Serious about your game?<br>So are we.</h1>
+    </div>
+  </div>
+
+  <!-- New Arrivals -->
+  <section class="new-arrivals">
+    <h2>NEW ARRIVALS</h2>
+    <div class="products">
+      <div class="product">
+        <img src="crbn.webp" alt="CRBN Paddle"style="width: 150px;">
+        <p>CRBN 1x Series<br>(Elongated Paddle)</p>
+      </div>
+      <div class="product">
+        <img src="franklin.avif" alt="Pickleballs"style="width: 150px;">
+        <p>Franklin X-40 Outdoor<br>Pickleballs</p>
+      </div>
+      <div class="product">
+        <img src="selkirkshirt.webp" alt="Shirt"style="width: 150px;">
+        <p>Selkirk Prestige Collection<br>Men's Short Sleeve Shirt</p>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
